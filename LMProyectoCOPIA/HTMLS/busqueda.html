@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jeny Melissa Muñoz Mejía. Dam1">
+    <meta name="description" content="Proyecto. Sitio web sobre películas y videojuegos.">
+    <link rel="stylesheet" href="../CSSS/busquedaEstilos.css">
+    <title>busqueda</title>
+</head>
+
+<body id="contenedorGlobal" >
+
+    <header id="contenedorCABEZA">
+        
+        <a href="index.html" title="link index.html" id="enlaceHEADER">
+                
+            <img src="../ProyectoPelisVideoJuegos/img/ready-player-one.jpg" alt="imagen sobre un jugador de videojuegos" id="imagenHEADER">
+        </a> 
+        
+        <h2 id="tituloCABEZA">
+            Vídeojuegos y Películas <br>
+            Búsqueda de películas o vídeojuegos
+        </h2>
+
+    </header>
+    <!--------------------------------------->
+
+    <main id="contenedorPrincipal">
+        <!----------------------------------------------------->
+        <aside id="contenedorBARRA">
+            <ul id="contenedorBarra">
+                <li class="listaBarra">
+                    <a href="./index.html">Inicio</a>
+                </li>
+                <!---->
+                <li class="listaBarra">
+                    <a href="pelisSobreVideojuegos.html">Pelis</a>
+                </li>
+                <!---->
+                <li class="listaBarra">
+                   <a href="videojuegosSobrePelis.html">Vídeojuegos</a>
+                </li>
+                <!---->
+                <li class="listaBarra">
+                    <a href="adaptaciones.html">Adaptaciones</a>
+                </li>
+                <!---->
+                <li class="listaBarra">
+                    <a href="planificacion.html">Planificación</a>
+                </li>
+                <!---->
+                <li class="listaBarra">
+                    <a href="planificar.html">Planificar</a>
+                </li>
+                <!---->
+                <li class="listaBarra">
+                    <a href="resena.html">Reseña</a>
+                </li>
+            </ul>
+        </aside>
+        <!------------------------------------------------------->
+        <section id="contedorCONTENIDO">
+            <h2 id="tituloSECTION">Aquí podremos buscar peliículas y vídeojuegos</h2>
+            <!----------------------------------------------------->
+            <br>
+            <!----------------------------------------------------->
+            <section id="seccionHIJA">
+                <form action="">
+                    <label for="movieNAME" id="labelName">
+                        Nombre Película:
+                    </label>
+                    <input type="text" id="movieNAME" name="movieNAME">
+                    <br>
+                    <br>
+                    <label for="gameNAME" id="labelGAME">
+                        Nombre Vídeojuego:
+                    </label>
+                    <input type="text" id="gameNAME" name="gameNAME">
+                    <br>
+                    <br>
+                    <input type="submit" id="busquedaSUBMIT" name="busquedaSUBMIT" value="Buscar">
+                </form>
+            </section>
+            
+            <!----------------------------------------------------->
+        </section>
+        <!----------------------------------------------------->
+    </main>
+    <!----------------------------------------------------->
+</body>
+</html>

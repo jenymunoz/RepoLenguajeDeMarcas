@@ -1,0 +1,181 @@
+body{
+    background-image: url("../ProyectoPelisVideoJuegos/img/matrix.png");
+    padding: 0%;
+    margin: 0%;
+}
+
+#contenedorGlobal{
+    display: grid;
+    padding: 0%;
+    margin: 0%;
+    margin: 0%;
+    width: 100%;
+    height: auto;
+
+    grid-template:
+    "header" 100px
+    "main" auto
+    "footer" 100px
+    ;
+    #contendorCabeza{
+        grid-area: header;
+    }
+    #contenedorPrincipal{
+        grid-area: main;
+    }
+    #contenedorPie{
+        grid-area: footer;
+    }
+    @media(min-width:768px){
+        grid-template: 
+        "header" 100px
+        "main" auto
+        "footer" 100px
+        ;
+    }
+
+    @media(min-width:992px){
+        grid-template: 
+        "header" 100px
+        "main" auto
+        "footer" 100px
+        ;
+    }
+
+}
+
+/*-----------------------*/
+
+/*--- Estilos para los elementos del header*/
+#contenedorCabeza{
+    display:flex;
+    background-image: url("../ProyectoPelisVideoJuegos/img/matrix_cab.png");
+    top: 0%;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+#enlaceHEADER{
+    width: 10%;
+    text-decoration: none;
+    top: 0%;
+    padding: 0%;
+}
+
+#imagenHEADER{
+   max-width: 99.9%;
+   margin: 0%;
+   padding: 0%;
+}
+
+#tituloCABEZA{
+    width: 90%;
+    text-align: center;
+    color: darkslategrey;
+    padding: 0%;
+    margin: 0%;
+}
+/*-----------------------------------------*/
+
+/*--- Estilos para los elementos del main*/
+
+#contenedorPrincipal{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 10% auto;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+
+/*-------------------------------------*/
+
+.listaBarra{
+    list-style-type: none;
+    font-family: fantasy;
+}
+
+/*---------------------------------------*/
+#ContenedorCONTENDIO{
+    padding: 0%;
+    margin: 0%;
+}
+
+#free01{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    color: darkslategrey;
+}
+
+#free02{
+    margin-top: 0%;
+    padding-bottom: 0%;
+    margin-bottom: 1%;
+    background-color: gainsboro;
+}
+
+.textoNegrita{
+    font-weight: bold;
+}
+
+#contendorLista{
+    padding: 0%;
+    margin: 0%;
+}
+
+#listaORDENADA{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.listaAdaptaciones{
+    list-style-type: upper-roman;
+    width: 20%;
+}
+
+li.listaAdaptaciones02{
+    list-style-type: upper-roman;
+    width: 38%;
+    padding-right: 1%;
+    padding-left: 1%;
+    
+}
+
+li.listaAdaptaciones03{
+    list-style-type: upper-roman;
+    width: 38%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.imgLISTA{
+    max-width: 50%;
+    height: auto;
+}
+
+img.imgLISTA02{
+    max-width: 55%;
+    height: 41%;
+}
+
+img.imgLISTA03{
+    max-width: 55%;
+    height: 41%;
+}
+/*----------------------------------------*/
+
+/*--- Estilos para los elementos del footer*/
+#contenedorPie{
+    text-align: right;
+
+}
+.listaPie{
+    list-style-type: none;
+}
+/*----------------------------------------*/

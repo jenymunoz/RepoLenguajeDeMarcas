@@ -1,0 +1,204 @@
+body{
+    background-image: url("../ProyectoPelisVideoJuegos/img/matrix.png");
+    padding: 0%;
+    margin: 0%;
+}
+
+#contenedorGlobal {
+    display: grid;
+
+    grid-template:
+    "header" 100px
+    "main" auto
+    "footer" 100px
+    ;
+    #contendorCabeza{
+        grid-area: header;
+    }
+    #contenedorPrincipal{
+        grid-area: main;
+    }
+    #contenedorPie{
+        grid-area: footer;
+    }
+    @media(min-width:768px){
+        grid-template: 
+        "header" 100px
+        "main" auto
+        "footer" 100px
+        ;
+    }
+
+    @media(min-width:992px){
+        grid-template: 
+        "header" 100px
+        "main" auto
+        "footer" 100px
+        ;
+    }
+}
+
+/*--- Estilos para los elementos del header*/
+#contenedorCabeza{
+    display:flex;
+    top: 0%;
+    background-image: url("../ProyectoPelisVideoJuegos/img/matrix_cab.png");
+}
+
+#enlaceHEADER{
+    width: 10%;
+    text-decoration: none;
+    top: 0%;
+    padding: 0%;
+}
+
+#imagenHEADER{
+   max-width: 99.9%;
+   margin: 0%;
+   padding: 0%;
+}
+
+#tituloCABEZA{
+    width: 90%;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    font-weight: bold;
+    color: darkslategray;
+}
+/*-----------------------------------------*/
+
+/*--- Estilos para los elementos del main*/
+
+#contenedorPrincipal{
+    display: grid;
+    grid-template-columns: 10% auto;
+
+}
+
+/*-------------------------------------*/
+
+.listaBarra{
+    list-style-type: none;
+    font-family: fantasy;
+    padding-bottom: 10%;
+}
+
+/*---------------------------------------*/
+
+/*--- Estilos para el contenido medio ---*/
+#mensajeMedio{
+    margin-bottom: 0%;
+    font-weight: bolder;
+    color: darkslategray;
+}
+
+#separador{
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+/*#contenedorFORM{
+    width: 450px; margin: 0 auto;
+    height: 500px;
+    background-color:beige;
+}*/
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 3;
+    position: absolute;
+    right: 33%;
+    
+}
+
+table,th,td{
+    /*border: 1px solid black;
+    border-collapse: collapse;*/
+    height: 50px;
+}
+
+td.columna1{
+    width: 150px;
+    text-align: center;
+}
+
+#fomulario{
+    text-align: center;
+}
+
+.labelsFORM{
+    color: darkslategray;
+    font-family: showcard gothic;
+}
+
+.inputTD{
+    text-align: justify;
+}
+
+#ComentaristaNAME{
+    width: 450px;
+    height: auto;
+    border-color: aqua;
+    border-style: dotted;
+}
+
+#PVname{
+    width: 450px;
+    height: auto;
+    border-color: aqua;
+    border-style: dotted;
+}
+
+#CR{
+    font-family: showcard gothic;
+    border-color: aqua;
+    border-style: dotted;
+}
+
+#COLOR{
+    border-color: aqua;
+    border-style: dotted;
+}
+
+select#listaCOMENTA{
+    color: darkslategrey;
+    font-family: showcard gothic;
+    width: 106px;
+    height: 35px;
+}
+
+#ARCHIVO{
+    font-family: showcard gothic;
+    color: lightslategray;
+    font-size: large;
+}
+
+#referencia{
+    width: 450px;
+    height: auto;
+    border-color: aqua;
+    border-style: dotted;
+}
+
+.botonFin{
+    width: 120px;
+    height: 38px;
+    font-size: large;
+}
+
+/*---------------------------------------*/
+
+/*--- Estilos para los elementos del footer*/
+#contenedorPie{
+    text-align: right;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+}
+.listaPie{
+    list-style-type: none;
+}
+/*----------------------------------------*/
+

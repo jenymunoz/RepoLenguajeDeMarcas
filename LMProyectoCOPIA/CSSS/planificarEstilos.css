@@ -1,0 +1,164 @@
+body{
+    background-image: url("../ProyectoPelisVideoJuegos/img/matrix.png");
+    padding: 0%;
+    margin: 0%;
+}
+
+#contenedorGlobal{
+    display: grid;
+    height: 100%;
+
+    grid-template:
+    "header" 100px
+    "main" auto
+    "footer" 100px
+    ;
+    #contendorCABEZA{
+        grid-area: header;
+    }
+    #contenedorPrincipal{
+        grid-area: main;
+    }
+    #contenedorPie{
+        grid-area: footer;
+    }
+    @media(min-width:768px){
+        grid-template: 
+        "header" 100px
+        "main" auto
+        "footer" 100px
+        ;
+    }
+
+    @media(min-width:992px){
+        grid-template: 
+        "header" 100px
+        "main" auto
+        "footer" 100px
+        ;
+    }
+
+}
+
+/*-----------------------*/
+
+/*--- Estilos para los elementos del header*/
+#contenedorCABEZA{
+    display:flex;
+    top: 0%;
+    background-image: url("../ProyectoPelisVideoJuegos/img/matrix_cab.png");
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+#enlaceHEADER{
+    width: 10%;
+    text-decoration: none;
+    top: 0%;
+    padding: 0%;
+}
+
+#imagenHEADER{
+   max-width: 99.9%;
+   margin: 0%;
+   padding: 0%;
+}
+
+#tituloCABEZA{
+    width: 90%;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    color: darkslategray;
+}
+/*-----------------------------------------*/
+
+#contenedorCONTENIDO{
+    display: grid;
+    grid-template-columns: 10% auto;
+}
+
+/*-----------------------------------------*/
+
+.listaBarra{
+    list-style-type: none;
+    font-family: fantasy;
+    padding-bottom: 5%;
+}
+
+#tituloSECTION{
+    color: darkslategray;
+}
+
+/*-----------------------------------------*/
+#seccionHIJA{
+    text-align: center;
+}
+
+#tabla{
+    background-color: plum;
+    text-align: center;
+    left: 33%;
+    position: fixed;
+    top: 22%;
+    border-radius: 25px;
+}
+
+#tituloTabla{
+    color: white;
+    font-family: showcard gothic;
+}
+
+#parrafoPLANIFICACION{
+    position: fixed;
+    top: 40%;
+    left: 43%;
+}
+
+#nDIAS{
+    background-color: gray;
+    color: darkslategrey;
+    
+}
+
+select#nDIAS{
+    background-color: lightsteelblue;
+    color: darkslategrey;
+    font-family: showcard gothic;
+    border: 1px solid black;
+    width: 37px;
+    height: 35px;
+}
+#ButtonACEPTAR{
+    background-color: pink;
+    color: red;
+    font-family: showcard gothic;
+}
+
+a.enlacePLANIFICACION:link{
+    color: brown;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+a.enlacePLANIFICACION:visited{
+    color: blueviolet;
+    font-size: 30px;
+}
+
+a.enlacePLANIFICACION:hover{
+    background-color: darkorange;
+    color: purple;
+}
+/*--- Estilos para los elementos del footer*/
+#contenedorPie{
+    text-align: right;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    
+}
+#listaPie{
+    list-style-type: none;
+}
+/*----------------------------------------*/

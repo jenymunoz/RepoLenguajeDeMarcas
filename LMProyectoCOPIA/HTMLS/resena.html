@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jeny Melissa Muñoz Mejía. Dam1">
+    <meta name="description" content="Proyecto. Sitio web sobre películas y videojuegos.">
+    <link rel="stylesheet" href="../CSSS/resenaESTILOS.CSS">
+    <title>reseña</title>
+</head>
+
+<!------------------------------------------------------------------------------------------------------->
+
+<body id="contendorGlobal">
+    <!--------------------------------------------------------------------------------------------------->
+    <header id="contenedorCabeza">
+        <!---->
+        <a href="index.html" title="link index.html" id="enlaceHEADER">
+                
+            <img src="../ProyectoPelisVideoJuegos/img/ready-player-one.jpg" alt="imagen sobre un jugador de videojuegos" id="imagenHEADER">
+        </a> 
+        <!---->
+        <h2 id="tituloCABEZA">
+            Vídeojuegos y Películas <br>
+            Reseña personal sobre vídeojuegos o películas
+        </h2>
+        <!---->
+    </header>
+    <!--------------------------------------------------------------------------------------------------->
+    <main id="contenedorPrincipal">
+        <!----------------------------------------------------------------------------------------------->
+        <aside id="contenedorBarra">
+            <!---->
+            <ul>
+                <li class="listaBarra">
+                    <a href="index.html">Inicio</a>
+                </li>
+                <!---->
+                <li class="listaBarra">
+                    <a href="videojuegosSobrePelis.html">Vídeojuegos</a>
+                </li>
+                <!---->
+                <li class="listaBarra">
+                    <a href="pelisSobreVideojuegos.html">pelis Sobre Videojuegos</a>
+                </li>
+                <!---->
+                <li class="listaBarra">
+                   <a href="adaptaciones.html">Adaptaciones</a>
+                </li>
+                <!---->
+                <li class="listaBarra">
+                   <a href="busqueda.html">Búsqueda</a>
+                </li>
+                <!---->
+                <li class="listaBarra">
+                    <a href="planificacion.html">Planificación</a>
+                </li>
+                <!---->
+                <li class="listaBarra">
+                    <a href="planificar.html">Planificar</a>
+                </li>
+                <!---->
+            </ul>
+        </aside>
+        <!----------------------------------------------------------------------------------------------->
+        <section dir="ContenedorCONTENDIO">
+            <!------------------------------------------------------------------------------------------->
+            <p id="mensajeMedio">Añade una reseña de una película o un vídeojuego</p>
+            <hr id="separador">
+            <br>
+            <br>
+            <!------------------------------------------------------------------------------------------->
+            <section id="contenedorFORM">
+                <form action="" id="fomulario">
+                    <!---->
+                    <table id="contenedorTabla">
+                        <!---->
+                        <tr>
+                            <td class="columna1">
+                                <label for="ComentaristaNAME" class="labelsFORM">
+                                    Nombre Del Comentarista: 
+                                </label>
+                            </td>
+                            <td class="inputTD">
+                                <input type="text" id="ComentaristaNAME">
+                            </td>
+                        </tr>
+                        <!---->
+                        <tr>
+                            <td class="columna1"> 
+                                <label for="listaCOMENTA" class="labelsFORM">¿Qué se comenta?</label>
+                            </td>
+                            <td class="inputTD">
+                                <select name="listaCOMENTA" id="listaCOMENTA">
+                                    <option value="Seleccionar:">Seleccionar:</option>
+                                    <option value="La peli no es buena">La peli no es buena</option>
+                                    <option value="La peli es buena">La peli no es buena</option>
+                                </select>
+
+                            </td>
+                        </tr>
+                        <!---->
+                        <tr>
+                            <td class="columna1">
+                                <label for="PVname" class="labelsFORM">Nombre De La Película o VÍDEOJUEGO:</label>
+                            </td class="inputTD">
+                            <td class="inputTD"><input type="text" id="PVname"></td>
+                        </tr>
+                        <!---->
+                        <tr>
+                            <td class="columna1">
+                                <label for="CR" class="labelsFORM">Comentario/Reseña:</label>
+                            </td>
+                            <td class="inputTD">
+                                <textarea name="CR" id="CR" placeholder="Añadir Reseña" rows="5" cols="45"></textarea>
+                            </td>
+                        </tr>
+                        <!---->
+                        <tr>
+                            <td class="columna1">
+                                <label for="COLOR" class="labelsFORM">Color Que Asocias:</label>
+                            </td>
+                            <td class="inputTD">
+                                <input type="color" id="COLOR" name="COLOR">
+                            </td>
+                        </tr>
+                        <!---->
+                        <tr>
+                            <td class="columna1">
+                                <label for="RANGO" class="labelsFORM">Valor Que Das (Entre 0 y 10):</label>
+                            </td>
+                            <td class="inputTD">
+                                <input type="range" min="0" max="10" id="RANGO" name="RANGO">
+                            </td>
+                        </tr>
+                        <!---->
+                        <tr>
+                            <td class="columna1">
+                                <label for="ARCHIVO" class="labelsFORM">Adjuntar Un Archivo:</label>
+                            </td>
+                            <td class="inputTD">
+                                <input type="file" id="ARCHIVO" name="ARCHIVO">
+                            </td>
+                        </tr>
+                        <!---->
+                        <tr>
+                            <td class="columna1">
+                                <label for="referencia" class="labelsFORM">Enlace De Referencia:</label>
+                            </td>
+                            <td class="inputTD">
+                                <input type="url" id="referencia" name="referencia">
+                            </td>
+                        </tr>
+                        <!---->
+                        <tr>
+                            <td colspan="2"> 
+                                    <input type="submit" value="Enviar" class="botonFin">
+                                    <input type="reset" value="Limpiar" class="botonFin">
+                                    <input type="submit" value="Vista Previa" class="botonFin">
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    <!---->
+                </form>
+            </section>
+            <!------------------------------------------------------------------------------------------->
+        </section>
+        <!----------------------------------------------------------------------------------------------->
+    </main>
+    <!--------------------------------------------------------------------------------------------------->
+    <footer id="contenedorPie">
+        <ul>
+            <li class="listaPie">&copy; Propiedad de Jeny</li>
+            <!---->
+            <li class="listaPie"><a href="https://aulavirtual3.educa.madrid.org/ies.villablanca.madrid/mod/assign/view.php?id=195637">IES Villablanca</a></li>
+            <!---->
+            <li class="listaPie"><a href="mailto:jeny.munoz@educa.madrid.org">Contacto</a></li>
+          </ul>
+    </footer>
+
+    <!--------------------------------------------------------------------------------------------------->
+</body>
+
+<!------------------------------------------------------------------------------------------------------->
+</html>

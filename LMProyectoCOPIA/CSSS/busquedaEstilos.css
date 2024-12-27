@@ -1,0 +1,111 @@
+body{
+    background-image: url("../ProyectoPelisVideoJuegos/img/matrix.png");
+}
+
+#contenedorGlobal{
+    display: grid;
+    height: 100%;
+
+    grid-template:
+    "header" 100px
+    "main" auto
+    "footer" 100px
+    ;
+    #contendorCABEZA{
+        grid-area: header;
+    }
+    #contenedorPrincipal{
+        grid-area: main;
+    }
+    #contenedorPie{
+        grid-area: footer;
+    }
+    @media(min-width:768px){
+        grid-template: 
+        "header" 100px
+        "main" auto
+        "footer" 100px
+        ;
+    }
+
+    @media(min-width:992px){
+        grid-template: 
+        "header" 100px
+        "main" auto
+        "footer" 100px
+        ;
+    }
+
+}
+
+/*-----------------------*/
+
+/*--- Estilos para los elementos del header*/
+#contenedorCABEZA{
+    display:flex;
+    top: 0%;
+}
+
+#enlaceHEADER{
+    width: 10%;
+    text-decoration: none;
+    top: 0%;
+    padding: 0%;
+}
+
+#imagenHEADER{
+   max-width: 99.9%;
+   margin: 0%;
+   padding: 0%;
+}
+
+#tituloCABEZA{
+    width: 90%;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    color: darkolivegreen;
+}
+/*-----------------------------------------*/
+
+/*-----------------------------------------*/
+
+#contenedorPrincipal{
+    display: grid;
+    grid-template-columns: 10% auto;
+}
+
+/*-----------------------------------------*/
+.listaBarra{
+    list-style-type: none;
+    font-family: fantasy;
+}
+
+#tituloSECTION{
+    border-bottom: solid 1px black ;
+    color: darkolivegreen;
+}
+#seccionHIJA{
+    text-align: center;
+}
+
+#labelName{
+    margin-right: 100px;
+}
+
+#movieNAME{
+    border-color: blue;
+}
+
+#labelGAME{
+    margin-right: 79px;
+}
+
+#gameNAME{
+    border-color: blue;
+}
+
+#busquedaSUBMIT{
+    border-color: blue;
+    border-radius: 8px;
+}

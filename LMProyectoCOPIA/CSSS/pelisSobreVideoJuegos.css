@@ -1,0 +1,231 @@
+body{
+    display: grid;
+    background-image: url("../ProyectoPelisVideoJuegos/img/matrix.png");
+    background-repeat: no-repeat;
+   background-size: cover;
+   padding: 0%;
+    margin: 0%;
+}
+
+/*Estilos del header*/
+#cabezaDOS{
+    top: 0%;
+}
+
+#linkheaderDOS{
+    text-decoration: none;
+    margin-top: 0%;
+    padding-top: 0%;
+    width: 20%;
+}
+
+#imagenHeaderDOS{
+    margin-top: 0%;
+    padding-top: 0%;
+    width: 150px;
+}
+
+
+#tituloCabeza{
+    text-align: center;
+    display: inline-block;
+    Top: 0%;
+    margin-top: 0%;
+    padding-top: 0%;
+    width: 80%;
+    position: absolute;
+    font-family: 'open sans';
+    font-weight: bold;
+    text-shadow: 2px 2px 5px green;
+    color: darkslategray;
+}
+/*------------------------------------*/
+#contenedorGLOBAL{
+    display: grid;
+    grid-template-columns: 7% auto;
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    margin-top: 0%;
+}
+@font-face{
+    font-family: 'Impact';
+    src: url(../ProyectoPelisVideoJuegos/fonts/Fantasy.ttf);
+}
+
+#listaNoOrdenadaDOS{
+    list-style: none;
+    padding-left: 0%;
+    font-family: impact, fantasy;
+}
+
+/*------------------------------------*/
+@font-face {
+    font-family: 'Merriweather';
+    src: url( '../ProyectoPelisVideoJuegos/fonts/Merriweather-Regular.ttf');
+}
+
+#contendorTEXTO{
+    font-family: 'Merriweather';
+    font-size: small;
+    
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+#texto1{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: 'Merriweather';
+}
+#texto2{
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    font-family: 'Merriweather';
+}
+
+#TEXTOSeparador{
+    font-family: 'open sans';
+    font-weight: bold;
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    color: darkslategray;
+}
+
+/*-----------------------------------*/
+#contendorPelis{
+    width: 100%;
+    padding: 0%;
+    margin-top: 0%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+   
+    grid-template-rows: 50% 50%;
+    
+}
+
+/*--- Estilos para los "contenedores" figure y para las imágenes ---*/
+#fig1{
+    margin-top: 0%;
+    padding-top: 0%;
+
+    margin-left: 1%;
+    padding-left: 0%;
+   
+    margin-right: 1%;
+    padding-right: 0%;
+
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#fig2{
+    padding-top: 0%;
+    margin-top: 0%;
+
+    padding-left: 0%;
+    padding-right: 0%;
+
+    margin-right: 1%;
+    margin-left: 1%;
+
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#fig3{
+    padding-top: 0%;
+    margin-top: 0%;
+
+    padding-right: 0%;
+    margin-right: 1%;
+    padding-left: 0%;
+    margin-left: 1%;
+
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#fig4{
+    padding-bottom: 0%;
+    margin-left: 1%;
+
+    padding-left: 0%;
+    padding-right: 0%; 
+
+    margin-right: 1%;
+
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#fig5{
+    padding-bottom: 0%;
+    margin-right: 1%;
+
+    padding-right: 0%;
+    padding-left: 0%;
+
+    margin-left: 1%;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#fig6{
+    padding-bottom: 0%;
+    margin-right: 1%;
+
+    padding-right: 0%;
+    padding-left: 0%;
+
+    margin-left: 1%;
+    box-shadow: 5px 10px 18px #888888
+}
+
+
+
+#img1{
+    max-width: 100%;
+    height: auto;
+}
+/*------------------------------*/
+#img2{
+    max-width: 100%;
+    height: auto;}
+/*------------------------------*/
+#img3{
+    max-width: 100%;
+    height: auto;}
+/*-----------------------------*/
+#img4{
+    max-width: 100%;
+    height: auto;}
+/*-----------------------------*/
+#img5{
+    max-width: 100%;
+    height: auto;}
+/*-----------------------------*/
+#img6{max-width: 100%;
+    height: auto;}
+
+.tituloIMG{
+    text-align: justify;
+    font-family: 'Merriweather';
+    font-weight: bold;
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    border-bottom-style: dotted ;
+}
+
+.textoIMG{
+    font-family: 'Merriweather';
+    text-align: justify;
+    padding-top: 0%;
+    margin-top: 0%;
+}
